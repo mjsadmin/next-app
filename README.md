@@ -37,5 +37,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Material UI
 ```
-npm i @mui/material @emotion/react @emotion/styled @mui/material-nextjs @emotion/cache
+npm i @mui/material @emotion/react @emotion/styled @mui/material-nextjs @emotion/cache @mui/x-data-grid
 ```
