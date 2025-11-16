@@ -39,3 +39,20 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ```
 npm i @mui/material @emotion/react @emotion/styled @mui/material-nextjs @emotion/cache @mui/x-data-grid
 ```
+## Setup
+```
+git clone https://github.com/mjsadmin/next-app.git
+cd next-app
+```
+
+`.next`, `package-lock.json`, `node_modules`を削除
+コマンドプロンプトを管理者で実行
+```
+set HTTP_PROXY=http://exampleuser:examplepassword@exampleproxy.mjs.co.jp:80
+set HTTPS_PROXY=http://exampleuser:examplepassword@exampleproxy.mjs.co.jp:80
+npm config set proxy http://exampleuser:examplepassword@exampleproxy.mjs.co.jp:80
+npm config set https-proxy http://exampleuser:examplepassword@exampleproxy.mjs.co.jp:80
+$env:HTTPS_PROXY = "http://exampleuser:examplepassword@exampleproxy.mjs.co.jp:80"
+$env:HTTP_PROXY = "http://exampleuser:examplepassword@exampleproxy.mjs.co.jp:80"
+npm install
+```
