@@ -37,7 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Material UI
 ```
-npm i @mui/material @emotion/react @emotion/styled @mui/material-nextjs @emotion/cache @mui/x-data-grid
+npm i @mui/material @emotion/react @emotion/styled @mui/material-nextjs @emotion/cache @mui/x-data-grid @mui/icons-material
 ```
 ## Setup
 ```
@@ -55,4 +55,9 @@ npm config set https-proxy http://exampleuser:examplepassword@exampleproxy.mjs.c
 $env:HTTPS_PROXY = "http://exampleuser:examplepassword@exampleproxy.mjs.co.jp:80"
 $env:HTTP_PROXY = "http://exampleuser:examplepassword@exampleproxy.mjs.co.jp:80"
 npm install
+```
+## Prismaのインストール
+```
+npm install prisma@^6
+npm install @prisma/client@^6
 ```
